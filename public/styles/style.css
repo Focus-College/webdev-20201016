@@ -1,39 +1,68 @@
-.header{
-    height: 25vh;
-    background-color: #FF0000;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
 
-    /* vertical align text */
+body {
+    font-family: 'Antic Slab', sans-serif;
+    background-color: black;
+}
+
+.header {
+    height: 25vh;
+    font-size: 4rem;
+    background-color: #c40404;
+    text-align: center;
+    text-shadow: 2px 2px rgb(54, 48, 48);
+
+    /* vertical align text*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .bios {
-    padding: 34px;
+    padding: 34px 17px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .bio {
     width: 25%;
     margin-bottom: 34px;
-    font-family: 'Atntic Slab';
 }
 
 .bio h1 {
+    padding-top: 17px;
+    padding-bottom: 17px;
     font-size: 3.0rem;
     text-align: center;
 }
 
 .bio img {
-    width: 100%;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border: 1px solid black;
+    border-radius: 50%;
 }
 
 .bio .bio-ctr {
-    padding-left: 17px;
-    padding-right: 17px;
+    margin-left: 17px;
+    margin-right: 17px;
+    background-color: aliceblue;
+    height: 100%;
+    opacity: 0.85;
+}
+
+.bio .bio-ctr:hover {
+    animation: pulse 5s infinite;
+}
+
+.bio p {
+    padding: 17px;
+}
+
+@keyframes pulse {
+    0% {background-color: aliceblue;}
+    50% {background-color: hotpink;}
+    100% {background-color: aliceblue;}
 }
