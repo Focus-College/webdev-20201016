@@ -1,0 +1,25 @@
+html{
+height: 25%;
+}
+
+body{
+    height: 25%;
+    margin: 0;
+}
+.header
+{
+    font-size: 50px; 
+    background-color: #6e6868;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bio img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border: 1px solid black;
+}
