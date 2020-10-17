@@ -4,23 +4,55 @@ html {
 
 body {
     height: 100%;
+    font-family: "Piazzolla";
 }
 
 .header {
     height: 25%;
-    background-color: #80f6ff;
+    background-color: #bdbdbd;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    color: rgb(13, 99, 38);
+    color: rgb(58, 107, 72);
 }
 
 .bio img {
-    width: 330px;
-    height: 330px;
-    object-fit: none;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
     border: 1px solid black;
-    color: red;
+    border-radius: 50%;
+
 }
 
+.bio {
+    width: 25%;
+    margin-bottom: 35px;
+    padding-left: 17px;
+    padding-right: 17px;
+    height: 50%;
+    background-color:   aliceblue;
+}
+
+.bio h1 {
+    font-size: 3.0rem;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    text-align: center;
+}
+
+.bios {
+    padding: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bio p {
+    padding: 17px;
+}
+
+.bio-container {
+    height: 100%;
+}
