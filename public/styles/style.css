@@ -63,8 +63,6 @@ body {
     50% {background-color: hotpink;}
     100% {background-color: aliceblue;}
 }
-
-
 .container {
     position: relative;
     width: 50%;
