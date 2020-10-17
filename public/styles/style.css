@@ -24,8 +24,8 @@ body {
 }
 
 .bio {
-    width: 25%;
     margin-bottom: 34px;
+    padding: 2px;
 }
 
 .bio h1 {
@@ -35,19 +35,26 @@ body {
     text-align: center;
 }
 
-.bio img {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-    border: 1px solid black;
-    border-radius: 50%;
-}
-
 .bio .bio-ctr {
+    width: 250px;
     margin-left: 17px;
     margin-right: 17px;
-    background-color: aliceblue;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     height: 100%;
+    cursor: default;
+}
+
+.bio img {
+    height: 260px;
+    width: 260px;
+    position: relative;
+    left: -7px;
+    object-fit: cover;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
 }
 
 .bio .bio-ctr:hover {
