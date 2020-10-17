@@ -1,0 +1,18 @@
+.header {
+    height: 25vh;
+    background-color: #eeeeee;
+    text-align: center;
+
+    /* vertical align text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
