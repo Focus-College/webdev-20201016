@@ -2,14 +2,16 @@
 
 body {
     font-family: 'Antic Slab', sans-serif;
+    background-color: black;
 }
 
 .header {
     height: 25vh;
     font-size: 4rem;
-    background-color: #EEEEEE;
+    background-color: #c40404;
     text-align: center;
-    
+    text-shadow: 2px 2px rgb(54, 48, 48);
+
     /* vertical align text*/
     display: flex;
     justify-content: center;
@@ -48,6 +50,7 @@ body {
     margin-right: 17px;
     background-color: aliceblue;
     height: 100%;
+    opacity: 0.85;
 }
 
 .bio .bio-ctr:hover {
