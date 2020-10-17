@@ -41,6 +41,8 @@ body {
     object-fit: cover;
     border: 1px solid black;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
 }
 
 .bio .bio-ctr {
@@ -48,6 +50,7 @@ body {
     margin-right: 17px;
     background-color: aliceblue;
     height: 100%;
+    box-shadow: 5px 10px;
 }
 
 .bio .bio-ctr:hover {
