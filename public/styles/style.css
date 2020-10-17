@@ -6,7 +6,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-.bio{
+.bio img{
     width: 220px;
     height: 220px;
     object-fit: cover;
